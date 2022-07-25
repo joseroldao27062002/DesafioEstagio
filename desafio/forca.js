@@ -5,7 +5,7 @@ class Forca {
     this.vidas = 6,
     this.palavraSecreta = []
     for (let i = 0; i < palavra.length; i++) {
-        this.palavraSecreta.push("[_]")
+        this.palavraSecreta.push("_")
     }
   }
 
